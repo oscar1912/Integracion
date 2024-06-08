@@ -11,5 +11,6 @@ namespace Models.Dtos
         public String Categoria { get; set; }
         public String Marca { get; set; }
         public Double Precio { get; set; } 
+        public Double Costo { get; set; }
     }
 }
