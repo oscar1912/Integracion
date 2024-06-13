@@ -12,9 +12,10 @@ namespace Data
         public AplicationDbContex(DbContextOptions options) : base(options)
         {
         }
-        public DbSet<Categoria>Categorias { get; set; }
-        public DbSet<Marca>Marcas { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Marca> Marcas { get; set; }
 
-        public DbSet<Producto>Productos { get; set; }
+        public DbSet<Producto> Productos { get; set; }
+        public DbSet<PrecioOferta> PrecioOfertas { get; set; }
     }
 }
