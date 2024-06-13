@@ -7,10 +7,12 @@ namespace Models.Dtos
 {
     public class ProductoDto
     {
-       public String NombreProducto { get; set; }
+        public String NombreProducto { get; set; }
         public String Categoria { get; set; }
         public String Marca { get; set; }
-        public decimal Precio { get; set; } 
+        public decimal Precio { get; set; }
         public decimal Costo { get; set; }
+        public decimal PrecioActual { get; set; }
+        public string TextoPromocional { get; set; }
     }
 }
