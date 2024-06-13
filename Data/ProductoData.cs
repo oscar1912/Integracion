@@ -10,10 +10,10 @@ namespace Data
     {
         public static List<Producto> listaProducto = new List<Producto>
         {
-            new Producto { Id=1, NombreProducto="Producto1", Categoria="Computadoras", Marca="HP", Precio=2000, Costo=1000},
-            new Producto { Id=2, NombreProducto="Producto2", Categoria="Computadoras", Marca="Windows", Precio=2200,Costo=1200},
-            new Producto { Id=3, NombreProducto="Producto3", Categoria="Computadoras", Marca="HP", Precio=2350,Costo=1300},
-            new Producto { Id=4, NombreProducto="Producto4", Categoria="Computadoras", Marca="HP", Precio=2450,Costo=1400}
+            new Producto { Id=1, NombreProducto="Producto1", CategoriaId=1, MarcaId=1, Precio=2000, Costo=1000},
+            new Producto { Id=2, NombreProducto="Producto2", CategoriaId=1, MarcaId=1, Precio=2200,Costo=1200},
+            new Producto { Id=3, NombreProducto="Producto3", CategoriaId=1, MarcaId=1, Precio=2350,Costo=1300},
+            new Producto { Id=4, NombreProducto="Producto4", CategoriaId=1, MarcaId=1, Precio=2450,Costo=1400}
         };
     }
 }
